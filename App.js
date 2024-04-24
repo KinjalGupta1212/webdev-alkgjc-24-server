@@ -8,6 +8,8 @@ import Lab5 from "./Lab5.js";
 import cors from "cors";
 import CourseRoutes from "./Kanbas/courses/routes.js";
 import ModuleRoutes from "./Kanbas/modules/routes.js";
+import QuizRoutes from "./Kanbas/quizzes/routes.js";
+import QuestionRoutes from "./Kanbas/questions/routes.js";
 
 const CONNECTION_STRING = process.env.DB_CONNECTION_STRING || "mongodb://localhost:27017/kanbas"
 mongoose.connect(CONNECTION_STRING);
@@ -40,6 +42,8 @@ app.use(
 
 ModuleRoutes(app);
 CourseRoutes(app);
+QuizRoutes(app);
+QuestionRoutes(app);
 Lab5(app);
 Hello(app)
 UserRoutes(app);
