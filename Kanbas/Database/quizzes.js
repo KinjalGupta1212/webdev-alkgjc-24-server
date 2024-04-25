@@ -1,7 +1,7 @@
 export default [
   {
     _id: "1",
-    course: "3700",
+    course: "661d9728f6fc420a68bb1abe",
     name: "Q1",
     dueDate: "2026-01-10",
     availableDate: "2023-01-03",
@@ -27,7 +27,7 @@ export default [
   },
   {
     _id: "2",
-    course: "3700",
+    course: "661d9728f6fc420a68bb1abe",
     name: "Q2",
     dueDate: "2023-01-10",
     availableDate: "2023-01-03",
@@ -53,7 +53,7 @@ export default [
   },
   {
     _id: "3",
-    course: "3700",
+    course: "661d9728f6fc420a68bb1abe",
     name: "Q3",
     dueDate: "2026-01-10 23:59:00",
     availableDate: "Thu Jan 02 2025 23:59:00",
