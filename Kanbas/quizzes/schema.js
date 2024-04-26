@@ -14,7 +14,7 @@ const quizSchema = new mongoose.Schema({
     timeLimit: Number,
     multipleAttempts: Boolean,
     viewResponses: String,
-    showCorrectAnswers: Boolean,
+    showCorrectAnswers: String,
     accessCode: String,
     oneQuestionAtATime: Boolean,
     lockdown: Boolean,
